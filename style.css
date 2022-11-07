@@ -287,6 +287,15 @@ a:hover {
     font-size: 32px;
 }
 
+.col-sm-12.text-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 250px 0px 250px;
+    margin-bottom: 10px;
+
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -705,12 +714,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -864,6 +873,11 @@ h4 {
     .container {
         width: 100%;
     }
+    .col-sm-12.text-center {
+        padding: 20px;
+        margin: 0;
+    }
+
     .b-parallax {
         background-attachment: scroll;
     }
