@@ -294,7 +294,6 @@ a:hover {
     justify-content: center;
     padding: 0 250px 0px 250px;
     margin-bottom: 10px;
-
 }
 .navbar {
     margin-bottom: 0;
@@ -517,26 +516,14 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 50%;
+    height: 25px;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
 a[data-lightbox] {
@@ -669,6 +656,8 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-bloc-text-sub {
@@ -692,6 +681,8 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
 }
 
 .h1 {
@@ -711,6 +702,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: black!important;
 }
 
 h2 {
@@ -782,17 +774,18 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    /* background-color: #F3976C; */
-    background-color: black;
+    background-color: #F3976C;
 }
 
 .tc-white {
     color: #F3976C!important;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
